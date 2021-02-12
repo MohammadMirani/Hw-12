@@ -43,42 +43,10 @@ module.exports = {myFunc};
 
 
 
-// $.post("https://reqres.in/api/users", data, function (res) {
-//     console.log(res);
-// })
-
 // $.ajax({
 //     method: "GET",
 //     url: "https://reqres.in/api/users?page=2",
 //     success: function(result){
 //         console.log(result.data);
 //     }
-// })
-
-// $.ajax({
-//     method: "POST",
-//     url : "https://reqres.in/api/users",
-//     data: {name:"ali",age:22},
-//     success :function(result){
-//         console.log(result);
-//     }
-// })
-// $.post("https://reqres.in/api/users", data, function (result) {
-//     console.log(result);
-//     $.get("https://reqres.in/api/users?page=2", function (res) {
-//         console.log(res.data);
-//     })
-// })
-
-//     $.ajax({
-//         method: "GET",
-//         url: "https://reqres.in/api/users/44",
-//         success: function(result){
-//             console.log(result);
-//         },
-//         error:function(){
-//             console.log("Error");
-//         }
-//     })
-
 // })
